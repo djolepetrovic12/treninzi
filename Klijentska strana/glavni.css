@@ -1,0 +1,291 @@
+.navigacija {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-color: aqua;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 2em;
+  height: 100%;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.navigacija div {
+  width: 120px;
+  text-align: center;
+  padding: 5px 20px;
+  margin: 10px 10px 0px;
+  border: 1px solid black;
+}
+
+.forme {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.forme > div > div {
+  padding: 5px;
+}
+
+.forme > div {
+  border: 1px solid black;
+  padding: 0.4cm;
+}
+
+.crtajListe {
+  width: 100%;
+  flex: 1 0 375px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+}
+
+.CrtajSve {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+table,
+td,
+tr {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.polaznik {
+  background-color: black;
+}
+
+.spoljDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.unutDivIzmene {
+  border: 1px solid black;
+}
+
+.unutDivIzmene {
+  margin-bottom: 50px;
+}
+
+.blokOTreneru {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.unutDivPodaci {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blokOTreneru {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  max-height: 150px;
+}
+
+.blokOTreneruEmoji {
+  width: 40%;
+  border: 1px solid black;
+}
+
+.blokOTreneruInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.blokOTreneru p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blokOTreneruInfoInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blokOTreneruInfoDugme button {
+  width: 50%;
+  border-radius: 0px;
+}
+
+.slika {
+  height: 100%;
+  width: 100%;
+}
+
+.unutDivIzmene {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.unutDivIzmene > div {
+  align-content: center;
+}
+
+.IDZaIzmenu {
+  display: none;
+}
+
+#inputIzmeniIDPolazika {
+  display: none;
+}
+#inputIzmeniIDTreninga {
+  display: none;
+}
+
+#trenKlik:hover,
+#polazKlik:hover,
+#treningKlik:hover,
+#salaKlik:hover {
+  background-color: white;
+  transition: 0.3s;
+}
+
+.klasa2 {
+  justify-content: flex-start;
+}
+
+.klasa1 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.div2Trening {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding: 0.2cm;
+}
+
+.div2Trening > div {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.div1 > p {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1, 5em;
+}
+
+.btnDodajTrenera,
+.btnDodajSalu,
+#dugmeTrening,
+.btnDodajPolaznika {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.forme p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1, 5em;
+}
+
+#selectVestinu {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.div1Trening {
+  width: 100px;
+  height: 20px;
+}
+
+.div2Trening {
+  display: flex;
+}
+
+.blokOTreneruInfoDugme {
+  border: 1px solid black;
+}
+
+.unutDivIzmenePolaznici,
+.unutDivIzmeneTreneri {
+  display: flex;
+  flex-direction: column;
+}
+
+.unutDivIzmenePolaznici,
+.unutDivIzmeneTreneri > .div1 {
+  width: 100%;
+}
+
+.spoljDivPolaznici,
+.spoljDivTreneri {
+  width: 95%;
+}
+
+.unutDivIzmenePolaznici,
+.unutDivIzmeneTreneri > .div2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div2Treneri > div,
+.div2Trening > div {
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.unutDivIzmeneDisplayProp > div {
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.unutDivIzmenePolaznici > .div1 {
+  width: 100%;
+}
+.unutDivIzmenePolaznici > .div2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.unutDivIzmenePolaznici > .div2 > div {
+  padding: 10px;
+  margin: 0px 5px;
+}
+.klasa1 > .div1 {
+  width: 100%;
+  height: 50px;
+}
+
+.klasa1 > .div1 > p {
+  padding: 10px;
+}
+
+.unutDivpodaciTreneri {
+  border: none;
+}
+
+.blokOTreneruInfoInfo2 {
+  background-color: rgb(51, 206, 206);
+}
+.blokOTreneruInfoInfo3 {
+  background-color: rgb(213, 137, 223);
+}
+.forme > div {
+  background-color: rgba(51, 206, 206, 0.2);
+}
+.forme > div:hover {
+  background-color: rgba(32, 116, 116, 0.5);
+}

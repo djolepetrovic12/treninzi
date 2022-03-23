@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>treninzi</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="glavni.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navigacija">
+            <div id="trenKlik">Treneri</div>
+            <div id="polazKlik">Polaznici</div>
+            <div id="treningKlik">Treninzi</div>
+            <div id="salaKlik">Sale</div>
+        </div>
+            <div class="CrtajSve">
+               
+                    <div class="forme">
+                        <div class="Trener">
+                            <!--<label for="selectVestinu">Veština:</label>-->
+                            <select id="selectVestinu"></select>
+                        </div>
+                        <div class="upisPolaznika">
+                            <!--<p>upisi polaznika</p>
+                            <label for="ime">ime polaznika</label>
+                            <input type="text" size="30" id="ime" name="ime" placeholder="npr. Milos"><br/>
+                            <label for="prezime">prezime polaznika</label>
+                            <input type="text" size="30" id="prezime" name="prezime" placeholder="npr. Petrovic"><br />
+                            <label for="grupa">grupa za trening?</label>
+                            <select name="grupa">
+                                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+                            </select><br/>
+                            <label for="JMBG">JMBG</label>
+                            <input type="text" id="JMBG" name="JMBG" size="20" placeholder=" npr. 1002007101023">
+                            <br/><label for="pojas">pojas:</label>
+                            <select name="pojas">
+                            <option>beli</option><option>žuti</option><option>narandžasti</option><option>zeleni</option><option>plavi</option><option>ljubičasti</option><option>crveni</option><option>braon</option><option>crni</option>
+                            </select>
+                            <br /><label for="pojas">vestina:</label>
+                            <select name="vestina" class="PolaznikVestina"></select>
+                            <button style="width:80%;border-radius:0px;">uclani polaznika</button>-->
+                        </div>
+                        <div class="upisTrenera">
+                            <div>
+                            <p>dodaj trenera</p>
+                            </div>
+                            <div>
+                            <label for="imeTrenera">ime trenera:</label><br/>
+                            <input type="text" size="30" id="imeTrenera" name="imeTrenera" placeholder="npr. Milos">
+                            </div>
+                            <div>
+                            <label for="prezimeTrenera">prezime trenera:</label>
+                            <input type="text" size="30" id="prezimeTrenera" name="prezimeTrenera" placeholder="npr. Petrovic">
+                            </div>
+                            <div>
+                            <label for="SifraTrenera">Sifra trenera:</label>
+                            <input type="text" id="SifraTrenera" name="SifraTrenera" size="20" placeholder=" npr. ME1232">
+                            </div>
+                            <!--<label id="lblVestinaTrenera" for="selectVestinuTrenera">Veština trenera:</label>-->
+                            <div>
+                            <button class="btnDodajTrenera">dodaj trenera</button>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                            <p>dodaj salu</p>
+                            </div>
+                            <div>
+                            <label for="adresaSale">adresa sale:</label>
+                            <input type="text" name="adresaSale" id="adresaSale" size=30 placeholder="Mike Antića 2">
+                            </div>
+                            <div>
+                            <label for="imeLokacije">ime lokacije:</label>
+                            <input type="text" name="imeLokacije" id="imeLokacije" size=30 placeholder="sala 4">
+                            </div>
+                            <div>
+                            <button class="btnDodajSalu"> dodaj salu</button>
+                            </div>
+                        </div>
+                        <div class="upisTreninga">
+                            <div>
+                            <p>dodaj trening</p>
+                            </div>
+                            <div>
+                            <label for="datumTreninga">Datum treninga:</label>
+                            <input type="date" id="datumTreninga" name="datumTreninga">
+                            </div>
+                            <div>
+                            <label for="vremeTreninga">Vreme treninga:</label>
+                            <input type="time" id="vremeTreninga" name="vremeTreninga" min="09:00" max="22:00">
+                            </div>
+                            <div>
+                            <label for="trajanjeTreninga">trajanje treninga u minutima:</label>
+                            <input type="number" max=120 min=1 size="4" id="trajanjeTreninga" name="trajanjeTreninga" placeholder="0">
+                            </div>
+                            <div>
+                            <label>grupa:</label>
+                            <input type="number" max=10 min=1 size="4" id="grupaTreninga" name="grupaTreninga" placeholder="1">
+                            </div>
+                            <div>
+                            <label>izaberi salu:</label>
+                            <select name="selectSalu" id="selectSalu">
+                            </select>
+                            </div>
+                            <div>
+                            <button id="dugmeTrening" >dodaj trening</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="crtajListe"> 
+
+                </div>
+        </div>
+        <script src="glavni.js" type="module"></script>
+    </body>
+</html>
